@@ -11,7 +11,7 @@ public class de_queue {
 	// insert an element into the queue
 	static void enqueue(int item)  {
 		// check if the queue is full
-		if (capacity == rear) {
+		if (capacity == rear-1) {
 			System.out.println("\nQueue is full\n");
 			
 		}
