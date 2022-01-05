@@ -88,6 +88,9 @@ public class SortedLinkedList
 	// Driver program to test above functions
 	public static void main(String[] args)
 	{
+// 		use push method to add elements to the list --> **ur listname**.push(*element you want to add*) 
+// 		use insertionSort to sort the list --> *ur list name*.insertionSort(*ur list name*.head)
+// 		use printlist to display ur list in the terminal --> *ur list name*.printlist(*ur list name*.head)
 		SortedLinkedList list = new SortedLinkedList();
 		list.push(5);
 		list.push(20);
