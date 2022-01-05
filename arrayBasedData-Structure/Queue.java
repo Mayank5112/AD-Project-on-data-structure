@@ -83,11 +83,13 @@ public class Queue {
 	}
 
 	public static void main(String [] args){
-		
+// 		creat a new queue give it a name *q*
+// 		use enqueue to add elements to the queue *q*.enqueue(*element*)
+// 		use dequeue to removw the elements *q*.dequeue(*elements*)
 		Queue queue = new Queue(2);
 		queue.enqueue(2);
 		queue.enqueue(4);
-//		System.out.println("queue before dequeue " +  );
+		System.out.println("queue before dequeue " +  );
 		
 		queue.queueDisplay();
 		queue.dequeue();
